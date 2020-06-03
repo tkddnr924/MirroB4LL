@@ -10,9 +10,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="InputAudio" Type="Folder"/>
-		<Item Name="MusicEmotionControl" Type="Folder"/>
-		<Item Name="OutputLED" Type="Folder"/>
+		<Item Name="InputAudio" Type="Folder" URL="../InputAudio">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="MusicEmotionControl" Type="Folder" URL="../MusicEmotionControl">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="OutputLED" Type="Folder" URL="../OutputLED">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
