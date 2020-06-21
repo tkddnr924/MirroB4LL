@@ -62,6 +62,7 @@
 			</Item>
 			<Item Name="lvanlys.framework" Type="Document" URL="/&lt;resource&gt;/lvanlys.framework"/>
 			<Item Name="lvsound2.framework" Type="Document" URL="/&lt;resource&gt;/lvsound2.framework"/>
+			<Item Name="소숫점 2자리.vi" Type="VI" URL="../InputAudio/소숫점 2자리.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
